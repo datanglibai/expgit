@@ -1,0 +1,22 @@
+merge
+
+[master 8052f02] add one line
+ 1 file changed, 1 insertion(+)
+WangdeMacBook-Air:expgit wangyu$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/datanglibai/expgit
+   2bf5c10..8325d9a  master     -> origin/master
+Auto-merging testconflict1.js
+CONFLICT (content): Merge conflict in testconflict1.js
+Automatic merge failed; fix conflicts and then commit the result.
+
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)

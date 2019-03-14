@@ -1,0 +1,23 @@
+rebase
+
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 4), reused 6 (delta 4), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/datanglibai/expgit
+   8325d9a..81a6bf6  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: modify same line
+Using index info to reconstruct a base tree...
+M	testconflict1.js
+Falling back to patching base and 3-way merge...
+Auto-merging testconflict1.js
+CONFLICT (content): Merge conflict in testconflict1.js
+error: Failed to merge in the changes.
+Patch failed at 0001 modify same line
+The copy of the patch that failed is found in: .git/rebase-apply/patch
+
+When you have resolved this problem, run "git rebase --continue".
+If you prefer to skip this patch, run "git rebase --skip" instead.
+To check out the original branch and stop rebasing, run "git rebase --abort".
