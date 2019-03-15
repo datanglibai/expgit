@@ -5,5 +5,9 @@ function f1() {
 
     console.log('fgssss')
 
+<<<<<<< HEAD
     console.log('kdsfdhfkkk');
+=======
+    console.log('kdsfdhfkkk, dkjsfdkjfhdskjhfdhsdjkhfdj');
+>>>>>>> edit one line
 }
